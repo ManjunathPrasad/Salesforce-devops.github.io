@@ -1,8 +1,115 @@
 <html>
   <head>
-    <title>Salesforce Devops</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Infopaths</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .navbar-brand {
+            animation: bounce 1s infinite;
+        }
+      .container {
+          width: 100%;
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 0 20px;
+          box-sizing: border-box;
+      }
+
+      @media screen and (max-width: 768px) {
+          .container {
+              padding: 0 10px;
+          }
+      }
+
+      .arrow {
+            position: absolute;
+            top: 50%;
+            right: -20px;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 10px solid #fff;
+            transform: translateY(-50%);
+        }
+
+        .navbar-brand:hover {
+            color: #ffc107; /* Yellow color on hover */
+        }
+
+        body {
+        background-color: #f8f9fa; /* Light gray background */
+    }
+
+    .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+  </style>
   </head>
   <body>
-    <h1>Salesforce Devops</h1>
+    <div style="text-align: center;" style="width: 100%;">
+      <!-- <h1 style="color: #800000; font-family: 'Arial', sans-serif;">Salesforce Devops</h1> -->
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Salesforce Infopaths<span class="arrow"></span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_salesforce_developer.html">About Salesforce</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_salesforce_devops.html">Salesforce DevOps</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="content">
+                    <!-- Content goes here -->
+                    <div style="margin-top: 20px; margin-bottom: 20px;">
+                      <h2 style="color: #007bff; font-family: 'Comic Sans MS', cursive;">Welcome to Salesforce Infopaths</h2>
+                    </div>
+                    <p>Salesforce is the world's leading customer relationship management (CRM) platform, empowering businesses of all sizes to grow and thrive in today's dynamic marketplace. With innovative cloud-based solutions, Salesforce enables organizations to streamline sales processes, nurture customer relationships, and drive unparalleled business growth.</p>
+
+                    <p>Our comprehensive suite of tools and services empowers sales, marketing, customer service, and beyond, helping businesses connect with customers in entirely new ways. From automating repetitive tasks to gaining valuable insights through advanced analytics, Salesforce revolutionizes the way companies engage with their audience, delivering exceptional experiences at every touchpoint.</p>
+                      
+                    <p>Join the millions of trailblazers who trust Salesforce to transform their businesses and unlock new opportunities for success. Experience the power of Salesforce today." </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
